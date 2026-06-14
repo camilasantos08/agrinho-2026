@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Impacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+    Raízes do Futuro
+</div>
+
+<nav>
+    <a href="index.html">Início</a>
+    <a href="natureza.html">Agro e Natureza</a>
+    <a href="desafios.html">Desafios</a>
+    <a href="futuro.html">Futuro Sustentável</a>
+    <a href="impacto.html">Seu Impacto</a>
+</nav>
+</header>
+
+<section class="pagina">
+
+
+<h1>Seu Impacto</h1>
+
+<h2>Curiosidade Ambiental</h2>
+
+<p id="curiosidade">
+    Clique no botão para descobrir uma curiosidade.
+</p>
+
+<button onclick="mostrarCuriosidade()">
+    Mostrar Curiosidade
+</button>
+
+<br><br><br>
+
+<h2>Simulador Ambiental</h2>
+
+<input
+    type="number"
+    id="arvores"
+    placeholder="Quantidade de árvores">
+
+<button onclick="calcularImpacto()">
+    Calcular
+</button>
+
+<p id="resultado"></p>
+
+<br><br>
+
+<h2>Deixe sua Opinião</h2>
+
+<form onsubmit="enviarFormulario(event)">
+
+    <input
+        type="text"
+        placeholder="Seu nome"
+        required>
+
+    <textarea
+        placeholder="O que você faz para ajudar o meio ambiente?"
+        required>
+    </textarea>
+
+    <button type="submit">
+        Enviar
+    </button>
+</form>
+
+
+</section>
+
+<footer>
+   <p>
+     Programa Agrinho 2026 🌱
+   </p>
+</footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>

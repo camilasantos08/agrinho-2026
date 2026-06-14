@@ -1,0 +1,176 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-color: #f5f7f2;
+color: #333;
+line-height: 1.6;
+}
+
+header{
+background-color: #2e7d32;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 8%;
+}
+
+.logo{
+color: white;
+font-size: 1.5rem;
+font-weight: bold;
+}
+
+nav a{
+color: white;
+text-decoration: none;
+margin-left: 20px;
+transition: 0.3s;
+}
+
+nav a:hover
+
+.hero{
+height: 80vh;
+
+background:
+linear-gradient(
+    rgba(0,0,0,0.45),
+    rgba(0,0,0,0.45)
+),
+url("img/banner.png");
+
+background-size: cover;
+background-position: center;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+text-align: center;
+color: white;
+}
+
+.hero-conteudo{
+max-width: 700px;
+}
+
+.hero h1{
+font-size: 3rem;
+margin-bottom: 20px;
+}
+
+.hero p{
+margin-bottom: 25px;
+font-size: 1.1rem;
+}
+
+.botao{
+background-color: #66bb6a;
+color: white;
+text-decoration: none;
+padding: 12px 25px;
+border-radius: 8px;
+transition: 0.3s;
+}
+
+.botao:hover
+
+.apresentacao,
+.pagina{
+padding: 70px 10%;
+}
+
+.apresentacao h2,
+.pagina h1{
+text-align: center;
+margin-bottom: 25px;
+}
+
+.cards-home,
+.cards{
+display: flex;
+justify-content: center;
+gap: 25px;
+flex-wrap: wrap;
+margin-top: 30px;
+}
+
+.card-home,
+.card{
+background-color: white;
+width: 300px;
+padding: 25px;
+border-radius: 15px;
+box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.card-home:hover,
+.card:hover{
+transform: translateY(-5px);
+}
+
+.imagem-pagina{
+display: block;
+width: 100%;
+max-width: 700px;
+margin: 20px auto;
+border-radius: 15px;
+}
+
+button{
+background-color: #2e7d32;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 8px;
+cursor: pointer;
+margin-top: 10px;
+}
+
+button:hover
+
+input,
+textarea{
+width: 100%;
+padding: 12px;
+margin-top: 10px;
+border: 1px solid #ccc;
+border-radius: 8px;
+}
+
+footer{
+background-color: #2e7d32;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 40px;
+}
+
+@media(max-width:768px){
+
+
+header{
+    flex-direction: column;
+    gap: 15px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    display: inline-block;
+    margin: 5px;
+}
+
+.hero h1{
+    font-size: 2rem;
+}
+
+}
